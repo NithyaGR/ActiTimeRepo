@@ -21,7 +21,7 @@ public class TestCreateNewCustomer extends TestBase{
 		logger.log(Status.INFO,"Clicked Add New Button");
 		tlPage.verifyNewCustomerBtn();
 		logger.log(Status.INFO,"Clicked New Customer Button");
-		tlPage.verifyEnterCustomerNameTB("TJActi51");
+		tlPage.verifyEnterCustomerNameTB("TJActi515");
 		logger.log(Status.INFO,"Entered Customer Name");
 		tlPage.verifyCustDescriptionTA("Retail");
 		logger.log(Status.INFO,"Entered Customer Description");

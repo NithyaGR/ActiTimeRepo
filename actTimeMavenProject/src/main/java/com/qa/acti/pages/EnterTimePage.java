@@ -10,6 +10,7 @@ import com.qa.acti.utility.Helper;
 public class EnterTimePage extends DriverScript {
 	@FindBy(id="container_tasks") WebElement taskMenu;
 	@FindBy(xpath="//a[@id='logoutLink']") WebElement logoutLink;
+	//logoutLink
 	
 	public EnterTimePage() {
 		
