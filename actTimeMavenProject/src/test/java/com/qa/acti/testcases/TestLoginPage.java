@@ -52,7 +52,9 @@ public class TestLoginPage extends TestBase{
 	{
 		
 		//File srcFile = new File("C:\\workspace\\MavenProject\\src\\main\\java\\com\\qa\\acti\\utility\\TestData.xlsx");
-		File srcFile = new File("C:\\workspace\\actTimeMavenProject\\actiTestData\\TestData.xlsx");
+		String filePath = System.getProperty("user.dir")+"\\actiTestData\\TestData.xlsx";
+		System.out.println(filePath);
+	   File srcFile = new File(filePath);
 		FileInputStream fis1 = new FileInputStream(srcFile);
 		XSSFWorkbook wb = new XSSFWorkbook(fis1);
 		XSSFSheet xlSheet = wb.getSheetAt(0);
